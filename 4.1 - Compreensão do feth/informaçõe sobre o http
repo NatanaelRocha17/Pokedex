@@ -1,0 +1,46 @@
+REQUISIÇÃO HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon
+${IP}/${path = caminho de identificação do recurso}
+
+
+IP: https://pokeapi.co
+
+path:/api/v2/pokemon (neste serviço quero a APT versão 2, recurso pokemon)
+
+
+TIPO DE SOLICITAÇÃO:
+GET | POST | DELETE | PUT 
+
+--> GET: buscar recurso
+
+--> POST: inserir dados
+
+--> PUT: atualizar
+
+--> DELETE: DELETAR 
+
+No proprio path já conseguimos transferir dados, no caso passar o tipo de iD no qual queremos as informações 
+
+
+FILTRO DE api - QUERRY STRING
+
+RETORNAR APENAS INFORMAÇÕES DE UM DETERMINADO TIPO
+
+
+https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+
+
+HEADERS --> transmitir coisas para o servidor e receber dados do servidor
+
+
+body--> corpo da requisição para transferir dados
+get não possui body
+POST --> UTILIZA O BODY
+{
+    "name": "Teste"
+
+    enviar dados mais robustos 
+}
+
+
